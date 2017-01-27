@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
   font-family: 'Lato', sans-serif;
 }
@@ -218,3 +219,225 @@ body {
 .form-control {
 	resize: vertical;
 }
+=======
+html, body {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  overflow-y: scroll;
+  padding-bottom: 50px;
+}
+
+.navbar-inverse {
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .tagline {
+  color: #fff;
+}
+.navbar-inverse .navbar-brand {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  padding: 0 15px;
+  height: 60px;
+}
+.navbar-inverse .tagline {
+  font-size: 20px;
+  float: left;
+  line-height: 60px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.modal textarea {
+  width: 100%;
+}
+
+.popover .popover-title {
+  display: none;
+}
+.popover .popover-content {
+  font-size: 0;
+}
+.popover .popover-content .button-group {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.discovery {
+  background-color: #264965;
+  color: #fff;
+  border: 0;
+}
+.discovery .action {
+  border-left: 1px solid #fff;
+}
+.discovery .action #owner-div select {
+  color: #333;
+}
+.discovery-label {
+  display: block;
+  line-height: 23px;
+}
+
+.items .nav-tabs li a {
+  border-color: transparent;
+  position: relative;
+}
+.items .nav-tabs li a:hover, .items .nav-tabs li a:focus, .items .nav-tabs li a:active, .items .nav-tabs li a:visited {
+  border-color: transparent;
+  background-color: transparent;
+}
+.items .nav-tabs li a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 4px solid transparent;
+  width: 100%;
+}
+.items .nav-tabs li.active a::after {
+  border-color: #11779B;
+}
+.items .tab-content .tab-pane {
+  padding: 20px 0;
+}
+.items .tab-content .tab-pane .select-all-options {
+  margin-bottom: 20px;
+}
+.items .tab-content .tab-pane .select-all-options .electronic, .items .tab-content .tab-pane .select-all-options .copyright-cleared {
+  padding-left: 25px;
+  display: inline-block;
+}
+.items .tab-content .tab-pane .select-all-options .electronic form, .items .tab-content .tab-pane .select-all-options .copyright-cleared form {
+  display: inline-block;
+}
+.items .tab-content .tab-pane .well {
+  box-shadow: none;
+}
+.items .tab-content .tab-pane .well p {
+  margin: 0;
+}
+.items .reveal .glyphicon-chevron-down {
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.items .reveal-up .glyphicon-chevron-down {
+  -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+.items .percentage {
+  line-height: 27px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 0 17px;
+}
+
+.phase-banner {
+  display: table;
+  margin: 10px 0;
+  padding: 2px 5px;
+  width: 100%;
+}
+.phase-banner__tag {
+  display: table-cell;
+  padding: 0 8px 0 0;
+}
+.phase-banner__label {
+  display: table-cell;
+  line-height: 1.25;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.phase-tag {
+  background-color: #ccc;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 0 .3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.phase-tag--beta {
+  background-color: #a52a2a;
+  color: #fff;
+}
+
+.no-margin {
+  margin: 0;
+}
+.no-margin-top {
+  margin-top: 0;
+}
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.minus-margin-top-20 {
+  margin-top: -20px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.vertical-padding-20 {
+  padding: 20px 0;
+}
+.vertical-padding-30 {
+  padding: 30px 0;
+}
+
+.square {
+  border-radius: 0;
+}
+
+.block {
+  display: block;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-error-red {
+  background-color: #a94442;
+}
+
+.error-red {
+  color: #a94442;
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: #fff !important;
+}
+.form-control {
+	resize: vertical;
+}
+
