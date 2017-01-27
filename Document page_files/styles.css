@@ -215,3 +215,6 @@ body {
 .white {
   color: #fff !important;
 }
+.form-control {
+	resize: vertical;
+}
