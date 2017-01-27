@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://beta-docsupply.nice.org.uk/ -->
+<html><head>
+<script src="https://use.fontawesome.com/879ad41498.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta version="Build version file not found">
+    <title>Discovery Job List - DocSupply</title>
+    <!--[if lt IE 9]>
+    <script src="//cdn.nice.org.uk/V3/Scripts/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+
+
+    
+    
+        <link rel="stylesheet" href="./Joblist page_files/bootstrap.min.css">
+        <link rel="stylesheet" href="./Joblist page_files/MonthPicker.css">
+        <link rel="stylesheet" href="./Joblist page_files/jquery-ui.min.css">
+        <link href="./Joblist page_files/css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="./Joblist page_files/styles.css">
+
+    
+    <meta content="//cdn.nice.org.uk/V3/Content/nice/favicon-144.png" name="msapplication-TileImage">
+    <link rel="shortcut icon" href="http://cdn.nice.org.uk/V3/Content/nice/favicon.ico">
+    
+</head>
+<body>
+    <nav id="nice_nav" class="navbar navbar-inverse square">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://www.nice.org.uk/">NICE</a>
+                <a href="http://beta-docsupply.nice.org.uk/" class="tagline">Document supply tool</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav pull-right">
+                        <li class="dropdown">
+                            <a href="http://beta-docsupply.nice.org.uk/#" class="profile-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Iain Harkis <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://openathens.nice.org.uk/Hub">My OpenAthens Account</a></li>
+                                <li><a href="http://beta-docsupply.nice.org.uk/signout" class="gtm-logout-link">Log out of Document Supply</a></li>
+                            </ul>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+        
+    
+
+
+<nav class="navbar navbar-default square">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="\\Joblist page.html">Home</a>
+                    </li>
+
+                        <li class="dropdown ">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="http://beta-docsupply.nice.org.uk/#">
+                                Admin
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://beta-docsupply.nice.org.uk/admin/users">Manage users</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="http://beta-docsupply.nice.org.uk/#">
+                                Reports
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://beta-docsupply.nice.org.uk/reports/reportone">Job metrics</a></li>
+                                <li><a href="http://beta-docsupply.nice.org.uk/reports/reporttwo">Jobs by user</a></li>
+                            </ul>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+
+    
+    
+        <script src="./Joblist page_files/jquery-1.10.2.min.js.download"></script>
+        <script src="./Joblist page_files/jquery-ui.min.js.download"></script>
+        <script src="./Joblist page_files/jquery.maskedinput.min.js.download"></script>
+        <script src="./Joblist page_files/MonthPicker.js.download"></script>
+        <script src="./Joblist page_files/bootstrap.min.js.download"></script>
+        
+        <script src="./Joblist page_files/NICE.HypermediaAction.js.download"></script>
+        <script src="./Joblist page_files/NICE.HypermediaReload.js.download"></script>
+        <script src="./Joblist page_files/jquery.popconfirm.js.download"></script>
+
+        <script src="./Joblist page_files/site.min.js.download"></script>
+    
+
+
+    <div class="body-content">
+
+        
+<div class="container">
+     <div class="items">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="http://beta-docsupply.nice.org.uk/discoveryjob/8#new-orders" aria-controls="new-orders" role="tab" data-toggle="tab">New orders <span class="item-amount">(3)</span></a></li>
+        <li role="presentation"><a href="http://beta-docsupply.nice.org.uk/discoveryjob/8#all-orders" aria-controls="all-orders" role="tab" data-toggle="tab">Being ordered <span class="item-amount">(3)</span></a></li>
+        <li role="presentation"><a href="http://beta-docsupply.nice.org.uk/discoveryjob/8#my-orders" aria-controls="my-orders" role="tab" data-toggle="tab">My queue <span class="item-amount">(3)</span></a></li>
+		<li role="presentation"><a href="http://beta-docsupply.nice.org.uk/discoveryjob/8#archived" aria-controls="archived" role="tab" data-toggle="tab">Archived orders <span class="item-amount">(8)</span></a></li>
+    </ul>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="new-orders"><table class="table table-bordered table-striped">
+        <thead>
+        <tr>
+            <th class="col-xs-1">Owner</th>
+            <th class="col-xs-1">Creator</th>
+            <th class="col-xs-2">Search title</th>
+            <th class="col-xs-2">Date received</th>
+            <th class="col-xs-2">Special requirements</th>
+            <th class="col-xs-2">Status</th>
+			<th class="col-xs-1">Actions</th>
+            <th class="col-xs-1"></th>
+        </tr>
+        </thead>
+
+        <tbody>
+                <tr>
+                    <td></td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                     <td>In purchase</td>
+				
+					<td></td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>DN20</td>
+                    
+                    <td>18 Jan 2017 - 15:12</td>
+                    
+                    <td>Yes</td>
+                    
+                     <td>In purchase</td>
+					<td></td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>JG20</td>
+                    
+                    <td>18 Jan 2017 - 15:12</td>
+                    
+                    <td></td>
+                    
+                     <td>In purchase</td>
+					<td></td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+                
+                
+                
+        </tbody>
+    </table></div>
+    
+    <div role="tabpanel" class="tab-pane" id="all-orders" style="display:hidden"><table class="table table-bordered table-striped">
+        <thead>
+        <tr>
+            <th class="col-xs-1">Owner</th>
+            <th class="col-xs-1">Creator</th>
+            <th class="col-xs-2">Search title</th>
+            <th class="col-xs-2">Date received</th>
+            <th class="col-xs-2">Special requirements</th>
+            <th class="col-xs-2">Status</th>
+			<th class="col-xs-1">Actions</th>
+            <th class="col-xs-1"></th>
+        </tr>
+        </thead>
+
+        <tbody>
+                <tr>
+                    <td>Martin Bailey</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                    <td>Being ordered</td>
+					<td><i class="fa fa-calendar-times-o red fa-2x" aria-hidden="true"></i></td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+                <tr>
+                    <td>Shailesh kumar</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>DN20</td>
+                    
+                    <td>18 Jan 2017 - 15:12</td>
+                    
+                    <td>Yes</td>
+                    
+                      <td>Being ordered</td>
+					<td><i class="fa fa-calendar-times-o red sla fa-2x" aria-hidden="true"></i></td>
+                    
+                    <td><a href="http://beta-docsupply.nice.org.uk/discoveryjob/3">View</a></td>
+                </tr>
+                <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>JG20</td>
+                    
+                    <td>18 Jan 2017 - 15:12</td>
+                    
+                    <td></td>
+                    
+                      <td>Being ordered</td>
+					<td></td>
+                    
+                    <td><a href="http://beta-docsupply.nice.org.uk/discoveryjob/4">View</a></td>
+                </tr>
+                
+                
+                
+        </tbody>
+    </table></div>
+           
+	<div role="tabpanel" class="tab-pane" id="my-orders" style="display:hidden"><table class="table table-bordered table-striped">
+        <thead>
+        <tr>
+               <th class="col-xs-1">Owner</th>
+            <th class="col-xs-1">Creator</th>
+            <th class="col-xs-2">Search title</th>
+            <th class="col-xs-2">Date received</th>
+            <th class="col-xs-2">Special requirements</th>
+            <th class="col-xs-2">Status</th>
+			<th class="col-xs-1">Actions</th>
+            <th class="col-xs-1"></th>
+        </tr>
+        </thead>
+
+        <tbody>
+                <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                      <td>Being ordered</td>
+					<td></td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+                <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>DN20</td>
+                    
+                    <td>18 Jan 2017 - 15:12</td>
+                    
+                    <td>Yes</td>
+                    
+                      <td>Being ordered</td>
+					<td></td>
+                    
+                   <td><a href="./Job page.html">View</a></td>
+                </tr>
+                <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>JG20</td>
+                    
+                    <td>18 Jan 2017 - 15:12</td>
+                    
+                    <td></td>
+                    
+                      <td>Being ordered</td>
+					<td></td>
+                    
+                    <td><a href="./Joblist page.html">View</a></td>
+                </tr>
+                
+                
+                
+        </tbody>
+    </table></div>
+	<div role="tabpanel" class="tab-pane" id="archived" style="display:hidden"><table class="table table-bordered table-striped">
+        <thead>
+        <tr>
+            <th class="col-xs-1">Owner</th>
+            <th class="col-xs-1">Creator</th>
+            <th class="col-xs-2">Search title</th>
+            <th class="col-xs-2">Date received</th>
+			<th class="col-xs-2">Date completed</th>
+			
+            <th class="col-xs-2">Special requirements</th>
+            <th class="col-xs-1">Status</th>
+			<th class="col-xs-1"></th>
+        </tr>
+        </thead>
+
+        <tbody>
+                <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>14 Jan 2017 - 13:11</td>
+					<td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                    <td>Complete</td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+                    <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>14 Jan 2017 - 13:11</td>
+					<td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                    <td>Complete</td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+				    <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>14 Jan 2017 - 13:11</td>
+					<td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                    <td>Complete</td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+				    <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>14 Jan 2017 - 13:11</td>
+					<td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                    <td>Complete</td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+				    <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>14 Jan 2017 - 13:11</td>
+					<td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                    <td>Complete</td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+				    <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>14 Jan 2017 - 13:11</td>
+					<td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                    <td>Complete</td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+				    <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>14 Jan 2017 - 13:11</td>
+					<td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                    <td>Complete</td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+				    <tr>
+                    <td>Iain Harkis</td>
+
+                    <td>Louise Foster</td>
+                    
+                    <td>AM20</td>
+                    
+                    <td>14 Jan 2017 - 13:11</td>
+					<td>18 Jan 2017 - 15:11</td>
+                    
+                    <td>Yes</td>
+                    
+                    <td>Complete</td>
+                    
+                    <td><a href="./Job page.html">View</a></td>
+                </tr>
+                
+                
+        </tbody>
+    </table></div>
+    
+</div>
+
+
+</div>
+
+    </div>
+
+
+</body></html>
