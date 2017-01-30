@@ -6,7 +6,10 @@ body {
   overflow-y: scroll;
   padding-bottom: 50px;
 }
-
+textarea{
+	resize:none;
+	margin-left:5px;
+}
 .navbar-inverse {
   margin-bottom: 0;
 }
@@ -219,6 +222,10 @@ body {
 	border-radius:0px;
 	margin-left:5px;
 }
-.labels{
-	line-height:30px;
+
+
+.panel-heading.row {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
 }

@@ -102,7 +102,7 @@
                     </div>
                     <div class="pull-right"><a href="#">Back to User list</a></div>
                     <div class="col-xs-12">
-                        <h1 class="pull-left no-margin-top">User management</p></div>
+                        <h1 class="pull-left no-margin-top"></p></div>
                     
                 </div>
                 
@@ -125,43 +125,41 @@
                     </div>
                 
                     <div class="row">
-                        <div class="well col-md-6">
-                            
-                                <div class="padding-10">
-                                    <h2 class="no-padding no-margin-top">User details</h2></div>
-                                    <div class="padding-10">
-                                            <p><strong>Name: </strong>Iain Harkis</p></div>
-                                    <div class="padding-10">
-                                            <p><strong>Email: </strong>iain.harkis@nice.org.uk</p></div>
-                                   <div class="padding-10">
-                                    <p><strong>Role: </strong>Purchaser</p></div>
-                                    <div class="padding-10"><label>Site:
-                                <select class="list">
-                                  <option value="london">London</option>
-                                  <option value="manchester">Manchester</option>                              
-                                </select>
-                                </label>
-                                </div>
-
-                                    
-                                <div class="padding-10"><label>Team
-                                <select class="list">
-                                    <optgroup label="CFG">
-                                        <option>Internal Guidelines</option>
-                                        <option>Clinical guidelines update</option>
-                                        <option>PH &amp; SC</option>
-                                        <option>CFG - Other</option>
-                                    </optgroup>
-
-                                    <optgroup label="CHTE">
-                                        <option>IPs</option>
-                                        <option>MTEP</option>
-                                        <option>DAP</option>
-                                        <option>CHTE – Other </option>
-                                    </optgroup>
-                                </select>
-                            </label><div class="pull-right">
-<button class="btn btn-primary">Save</button></div></div>
+                        <div class="panel panel-default">
+  <div class="panel-heading">User management</div>
+  <div class="panel-body"><form class="form-horizontal">
+  <div class="form-group">
+    <label class="control-label col-sm-2">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="name">Name:</label>
+    <div class="col-sm-10"> 
+      <input type="password" class="form-control" id="name" placeholder="Enter name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="role">Role:</label>
+    <div class="col-sm-10"> 
+      <input class="form-control" id="role" placeholder="Enter role">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="role">Site:</label>
+    <div class="col-sm-10"> 
+      <input class="form-control" id="role" placeholder="Enter role">
+    </div>
+  </div>
+ 
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form></div>
+</div>
                             
                                 
 
