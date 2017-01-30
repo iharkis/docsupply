@@ -226,6 +226,6 @@ textarea{
 
 .panel-heading.row {
   margin: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
