@@ -1,0 +1,618 @@
+[
+  {
+    "StatusId": 1,
+    "Title": "Unordered",
+    "Root": true,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 2,
+        "Prerequisite": "NotElectronicANDNotCC",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 3,
+        "Prerequisite": "ElectronicOrCC",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 2,
+    "Title": "Order sent to RSM",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 19,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 23,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 13,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 3,
+    "Title": "Order sent to BL",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 18,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 12,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 13,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 6,
+        "Prerequisite": "ElectronicOrCC",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 4,
+    "Title": "Order sent to UoL",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 20,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 24,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 13,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 5,
+    "Title": "Order sent to Other Supplier",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 21,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 25,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 13,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 6,
+    "Title": "Confirmation to proceed Requested",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 7,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 9,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 7,
+    "Title": "Confirmation to proceed Received",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 8,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 8,
+    "Title": "Order Sent to Publisher",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 10,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 26,
+        "Prerequisite": "None",
+        "FreeText": true,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 9,
+    "Title": "Withdrawn",
+    "Root": false,
+    "End": true,
+    "Description": "",
+    "Nodes": []
+  },
+  {
+    "StatusId": 10,
+    "Title": "Unable to Source",
+    "Root": false,
+    "End": true,
+    "Description": "",
+    "Nodes": []
+  },
+  {
+    "StatusId": 11,
+    "Title": "Received",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 14,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 16,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 12,
+    "Title": "Delayed",
+    "Root": false,
+    "End": false,
+    "Description": "DelayedBL",
+    "Nodes": [
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 13,
+    "Title": "Chase Sent",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 13,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 14,
+    "Title": "Copyright declaration requested",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 15,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 15,
+    "Title": "Copyright declaration received",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 16,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 16,
+    "Title": "Analyst notified",
+    "Root": false,
+    "End": false,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 17,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 17,
+    "Title": "Completed",
+    "Root": false,
+    "End": true,
+    "Description": "",
+    "Nodes": []
+  },
+  {
+    "StatusId": 18,
+    "Title": "Unavailable from BL",
+    "Root": false,
+    "End": true,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 2,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": [
+          19
+        ]
+      },
+      {
+        "StatusId": 4,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [
+          19
+        ],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 19,
+    "Title": "Unavailable from RSM",
+    "Root": false,
+    "End": true,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 3,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": [
+          18
+        ]
+      },
+      {
+        "StatusId": 4,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [
+          18
+        ],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 20,
+    "Title": "Unavailable from UoL",
+    "Root": false,
+    "End": true,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 5,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 21,
+    "Title": "Unavailable from other suppliers",
+    "Root": false,
+    "End": true,
+    "Description": "",
+    "Nodes": [
+      {
+        "StatusId": 8,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 22,
+    "Title": "Cancelled",
+    "Root": false,
+    "End": true,
+    "Description": "",
+    "Nodes": []
+  },
+  {
+    "StatusId": 23,
+    "Title": "Delayed",
+    "Root": false,
+    "End": false,
+    "Description": "DelayedRSM",
+    "Nodes": [
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 24,
+    "Title": "Delayed",
+    "Root": false,
+    "End": false,
+    "Description": "DelayedUOL",
+    "Nodes": [
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 25,
+    "Title": "Delayed",
+    "Root": false,
+    "End": false,
+    "Description": "DelayedOther",
+    "Nodes": [
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  },
+  {
+    "StatusId": 26,
+    "Title": "Delayed",
+    "Root": false,
+    "End": false,
+    "Description": "DelayedPub",
+    "Nodes": [
+      {
+        "StatusId": 11,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      },
+      {
+        "StatusId": 22,
+        "Prerequisite": "None",
+        "FreeText": false,
+        "VisitedStatusPrerequisite": [],
+        "NotVisitedStatusPrerequisite": []
+      }
+    ]
+  }
+]
