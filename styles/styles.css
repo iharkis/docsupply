@@ -217,4 +217,8 @@ body {
 }
 .btn{
 	border-radius:0px;
+	margin-left:5px;
+}
+.labels{
+	line-height:30px;
 }
